@@ -1,0 +1,24 @@
+    1  cd c;"
+    2  exit
+    3  q
+    4  cd c:
+    5  cd eclipse_genomics/Git/
+    6  l
+    7  ls
+    8  cd cbioportal-mysql-v1.5.0/
+    9  git diff v1.4.1. v1.5.0
+   10  git diff 
+   11  ls
+   12  git diff v1.4.1 v1.5.0 --stat
+   13  git diff v1.4.1 v1.5.0 --stat > ../cbioportal-tag-diffs/diff-1.4.1-mysql-1.5.0-mysql.txt
+   14  git diff v1.4.1 v1.5.0 --stat > diff-1.4.1-mysql-1.5.0-mysql.txt
+   15  git diff v1.4.1 v1.5.0 --name-only > diff-1.4.1-mysql-1.5.0-mysql-nameonly.txt
+   16  pwd
+   17  cd c:
+   18  cd learngit/testproject/
+   19  git branch
+   20  git add .
+   21  git commit -a -m "added portal main webapp from sqlserver branch"
+   22  git push 
+   23  diff remote --help
+   24  history > testproject_commands.txt
